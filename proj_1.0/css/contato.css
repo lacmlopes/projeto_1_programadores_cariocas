@@ -1,0 +1,68 @@
+body {
+	color: #D4D9D6;
+	margin: 0px;
+	background-color: #262626;
+	background-image: url("../img/IMG_8663.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 0px;
+	font-family: Segoe UI Black, sans-serif;
+
+		
+}
+
+body a:visited {
+		text-decoration: none;
+		color: #303633;
+}
+
+#back {
+	z-index: 1;
+	background-color:  rgb(48, 54, 50, 0.9);
+	width: auto;
+	height: 700px;
+	padding: 200px;
+
+	display: block;
+}
+
+#box {
+	position: relative;
+	margin:auto;
+	width: 50%;
+	background-color: #7EA2AA;
+	padding: 100px;
+	text-align: center;
+	font-size: 2em;
+
+}
+form {
+	
+	margin: auto;
+	justify-content: center;
+}
+
+form input, textarea{
+	display: block;
+	margin-top: 10px;
+	padding-left: 10px;
+	width: 40%;
+	text-align: center;
+}
+
+footer {
+	height: 100px;
+	color: #262626;
+	background-color: #D4D9D6;
+	text-align: center;
+	padding: 15px;
+
+	border-top: 2px solid #7EA2AA; 
+	clear: both;
+	position: relative;
+	bottom: 0px;
+}
+	
+p#rodape-declaracao {
+				  padding: 100px;
+}

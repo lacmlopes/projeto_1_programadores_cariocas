@@ -1,0 +1,149 @@
+body {
+	color: #D4D9D6;
+	margin: 0px;
+	background-color: #262626;
+	background-image: url("../img/IMG_8663.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 0px;
+	font-family: Segoe UI Black, sans-serif;
+
+		
+}
+
+body a:visited {
+		text-decoration: none;
+		color: #303633;
+}
+
+#back {
+	z-index: 1;
+	background-color:  rgb(48, 54, 50, 0.9);
+	width: auto;
+	height: 700px;
+	padding: 200px;
+
+	display: none;
+}
+
+#box {
+	position: relative;
+	margin:auto;
+	width: 50%;
+	background-color: #7EA2AA;
+	padding: 100px;
+	text-align: center;
+	font-size: 2em;
+
+}
+#fechar {
+	position: relative;
+	float: right;
+	padding: 0px;
+}
+
+#inicio {
+	width: 100%;
+	height: 700px;
+	background-color: rgb(48, 54, 50, 0.7);
+	position: relative;
+	margin:auto;
+    color: #D4D9D6;
+	padding-top: 200px;
+	display: block;
+	visibility: visible;
+
+}
+#inicio h1 {
+	text-align: center;
+	margin-top:  100px;
+	font-size: 5em;
+}
+#inicio p {
+	text-align: center;
+	font-size: 1.4em;
+
+}
+
+#inicio button {
+	padding: 10px 20px 10px 20px;
+	background: #D4D9D6;
+	display: block;
+
+	margin: auto;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#sobre_mim {
+	position: relative;
+	margin:auto;
+	width: 60%;
+	width: -20px;
+	padding: 50px;
+	background-color: #7EA2AA;
+	border-left: 2pX solid #8BE8CB; 
+	border-right: 2px solid #8BE8CB;
+
+}
+#slides {
+	margin-bottom: 110px;
+	background-color: #262626;
+}
+div#imgs {
+	width: 100%;
+    display: block;  
+    position: relative;
+}
+
+div#imgs img#principal {
+	width: 80%;
+	padding: 0% 10% 0% 10%;
+
+}
+
+div#imgs img.lateral {
+	display: block;
+
+	position: relative;
+	float: left;
+
+}
+
+img.lateral {
+	height: 400px;
+	margin-left: 1px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .1s ease-in-out;
+	transition: .1s ease-in-out;
+}
+
+img.lateral:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+#imgMaior {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	color: white;
+	position: fixed;
+	display: none;
+}
+footer {
+	height: 100px;
+	color: #262626;
+	background-color: #D4D9D6;
+	text-align: center;
+	padding: 15px;
+	margin-top: 100px;
+	border-top: 2px solid #7EA2AA; 
+	clear: both;
+	position: relative;
+	bottom: 0px;
+}
+	
+p#rodape-declaracao {
+				  padding: 100px;
+}
+
